@@ -1,0 +1,17 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+
+workspace '../../LeChat/LeChat.xcworkspace'
+project '../../LeChat/LeChat.xcodeproj'
+
+target 'LeChat' do
+  
+  
+  
+end
+
+
+
+#pod install --verbose --no-repo-update
+#pod update --verbose --no-repo-update
