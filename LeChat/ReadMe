@@ -1,0 +1,11 @@
+初始化环境：
+cd React
+npm install react-native
+
+
+更新pod环境：
+pod install
+
+
+启动rn服务器脚本：
+(JS_DIR=`pwd`/React; cd ./React/node_modules/react-native; npm run start -- --root $JS_DIR)

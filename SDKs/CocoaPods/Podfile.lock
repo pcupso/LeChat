@@ -1,3 +1,31 @@
-PODFILE CHECKSUM: 5d124db4e10dbe48cab961e4aa9c595263888e52
+PODS:
+  - React/Core (0.39.2):
+    - React/CSSLayout
+  - React/CSSLayout (0.39.2)
+  - React/RCTImage (0.39.2):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.39.2):
+    - React/Core
+  - React/RCTText (0.39.2):
+    - React/Core
+  - React/RCTWebSocket (0.39.2):
+    - React/Core
+
+DEPENDENCIES:
+  - React/Core (from `../../LeChat/React/node_modules/react-native`)
+  - React/RCTImage (from `../../LeChat/React/node_modules/react-native`)
+  - React/RCTNetwork (from `../../LeChat/React/node_modules/react-native`)
+  - React/RCTText (from `../../LeChat/React/node_modules/react-native`)
+  - React/RCTWebSocket (from `../../LeChat/React/node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../../LeChat/React/node_modules/react-native
+
+SPEC CHECKSUMS:
+  React: 8c26f75b7d3a78fd1ddad8ab0e40e1a3e945960a
+
+PODFILE CHECKSUM: 5f8dea208a04ea2144cfdb9cbf30e211043efea6
 
 COCOAPODS: 1.2.0

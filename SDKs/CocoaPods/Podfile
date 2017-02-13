@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-platform :ios, '7.0'
+platform :ios, '8.0'
 
 
 workspace '../../LeChat/LeChat.xcworkspace'
@@ -7,8 +7,18 @@ project '../../LeChat/LeChat.xcodeproj'
 
 target 'LeChat' do
   
-  
-  
+
+
+    pod 'React', :path => '../../LeChat/React/node_modules/react-native', :subspecs => [
+    
+    'Core',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTText',
+    'RCTWebSocket',
+    
+    ]
+
 end
 
 
