@@ -9,23 +9,28 @@
 /* Begin PBXBuildFile section */
 		54ADD2118A237BEC83FDAA8B /* libPods-LeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2995378B1109F5F3990244A6 /* libPods-LeChat.a */; };
 		624E89791E4C69C10068ED6B /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 624E89781E4C69C10068ED6B /* libReact.a */; };
+		624E897C1E519E430068ED6B /* index.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = 624E897B1E519E430068ED6B /* index.ios.js */; };
 		6275B2D81E4AEA0C0001B5F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6275B2D71E4AEA0C0001B5F3 /* main.m */; };
 		6275B2DB1E4AEA0C0001B5F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6275B2DA1E4AEA0C0001B5F3 /* AppDelegate.m */; };
-		6275B2DE1E4AEA0C0001B5F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6275B2DD1E4AEA0C0001B5F3 /* ViewController.m */; };
 		6275B2E31E4AEA0C0001B5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6275B2E21E4AEA0C0001B5F3 /* Assets.xcassets */; };
+		62DA9A6F1E52AD44007B59CE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DA9A6E1E52AD44007B59CE /* HomeViewController.m */; };
+		62DA9A721E52AD63007B59CE /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DA9A711E52AD62007B59CE /* ReactNativeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2995378B1109F5F3990244A6 /* libPods-LeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LeChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		624E89781E4C69C10068ED6B /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/LeChat-ddivbswzwlikuufnhcbfkjdlkqio/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
+		624E897B1E519E430068ED6B /* index.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.ios.js; path = React/index.ios.js; sourceTree = "<group>"; };
 		6275B2D31E4AEA0C0001B5F3 /* LeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6275B2D71E4AEA0C0001B5F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6275B2D91E4AEA0C0001B5F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6275B2DA1E4AEA0C0001B5F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6275B2DC1E4AEA0C0001B5F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6275B2DD1E4AEA0C0001B5F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6275B2E21E4AEA0C0001B5F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6275B2E71E4AEA0C0001B5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62DA9A6D1E52AD44007B59CE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		62DA9A6E1E52AD44007B59CE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
+		62DA9A701E52AD62007B59CE /* ReactNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactNativeViewController.h; path = ViewControllers/ReactNativeViewController.h; sourceTree = "<group>"; };
+		62DA9A711E52AD62007B59CE /* ReactNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactNativeViewController.m; path = ViewControllers/ReactNativeViewController.m; sourceTree = "<group>"; };
 		8A3D34888820E6146C82E015 /* Pods-LeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeChat.debug.xcconfig"; path = "../SDKs/CocoaPods/Pods/Target Support Files/Pods-LeChat/Pods-LeChat.debug.xcconfig"; sourceTree = "<group>"; };
 		E4D2A9B5F569BA90B96311CD /* Pods-LeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeChat.release.xcconfig"; path = "../SDKs/CocoaPods/Pods/Target Support Files/Pods-LeChat/Pods-LeChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,10 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		624E897A1E519E230068ED6B /* ReactNative Views */ = {
+			isa = PBXGroup;
+			children = (
+				624E897B1E519E430068ED6B /* index.ios.js */,
+			);
+			name = "ReactNative Views";
+			sourceTree = "<group>";
+		};
 		6275B2CA1E4AEA0C0001B5F3 = {
 			isa = PBXGroup;
 			children = (
 				6275B2D51E4AEA0C0001B5F3 /* LeChat */,
+				624E897A1E519E230068ED6B /* ReactNative Views */,
 				6275B2D41E4AEA0C0001B5F3 /* Products */,
 				EDF97D5D1054B5E38180E32F /* Pods */,
 				CF4F510DAA9752E0D5332074 /* Frameworks */,
@@ -64,10 +78,9 @@
 		6275B2D51E4AEA0C0001B5F3 /* LeChat */ = {
 			isa = PBXGroup;
 			children = (
+				62DA9A6A1E52AD0B007B59CE /* ViewControllers */,
 				6275B2D91E4AEA0C0001B5F3 /* AppDelegate.h */,
 				6275B2DA1E4AEA0C0001B5F3 /* AppDelegate.m */,
-				6275B2DC1E4AEA0C0001B5F3 /* ViewController.h */,
-				6275B2DD1E4AEA0C0001B5F3 /* ViewController.m */,
 				6275B2E21E4AEA0C0001B5F3 /* Assets.xcassets */,
 				6275B2E71E4AEA0C0001B5F3 /* Info.plist */,
 				6275B2D61E4AEA0C0001B5F3 /* Supporting Files */,
@@ -81,6 +94,17 @@
 				6275B2D71E4AEA0C0001B5F3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62DA9A6A1E52AD0B007B59CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				62DA9A6D1E52AD44007B59CE /* HomeViewController.h */,
+				62DA9A6E1E52AD44007B59CE /* HomeViewController.m */,
+				62DA9A701E52AD62007B59CE /* ReactNativeViewController.h */,
+				62DA9A711E52AD62007B59CE /* ReactNativeViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		CF4F510DAA9752E0D5332074 /* Frameworks */ = {
@@ -163,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624E897C1E519E430068ED6B /* index.ios.js in Resources */,
 				6275B2E31E4AEA0C0001B5F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6275B2DE1E4AEA0C0001B5F3 /* ViewController.m in Sources */,
 				6275B2DB1E4AEA0C0001B5F3 /* AppDelegate.m in Sources */,
 				6275B2D81E4AEA0C0001B5F3 /* main.m in Sources */,
+				62DA9A721E52AD63007B59CE /* ReactNativeViewController.m in Sources */,
+				62DA9A6F1E52AD44007B59CE /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
